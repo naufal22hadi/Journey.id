@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/term_cond_bg"
+    android:padding="5dp"
+    android:id="@+id/bottomSheet">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Term &amp; condition policy"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/closeSign"
+            android:textColor="@color/fontBlack"
+            android:textSize="20sp"
+            android:fontFamily="@font/alegreya_sans"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/closeSign"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="X"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:paddingTop="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/ic_baseline_circle_30"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/closeSign"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Updated 20/09/2021"
+                android:paddingStart="20dp"
+                android:fontFamily="@font/alegreya_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="AGREEMENT TO TERMS"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:textSize="16sp"
+                android:text="These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and [business entity name] (“we,” “us” or “our”), concerning your access to and use of the [website name.com] website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”)."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
+                android:paddingStart="10dp"
+                android:drawableLeft="@drawable/ic_baseline_circle_18"
+                android:text="Journey.id Term of Service"
+                android:fontFamily="@font/alegreya_sans"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:drawablePadding="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingStart="10dp"
+                android:drawableLeft="@drawable/ic_baseline_circle_18"
+                android:text="Journey.id Privacy Policy"
+                android:textSize="16sp"
+                android:fontFamily="@font/alegreya_sans"
+                android:textColor="@color/purple_500"
+                android:drawablePadding="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:textSize="16sp"
+                android:text="You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms and Conditions. If you do not agree with all of these Terms and Conditions, then you are expressly prohibited from using the Site and you must discontinue use immediately."/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

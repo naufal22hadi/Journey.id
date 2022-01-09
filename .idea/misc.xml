@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/drawable/edit_text_bg.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/drawable/ic_baseline_circle_18.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/drawable/login_button_bg.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/drawable/term_cond_bg.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/layout/activity_create_account_page.xml" value="0.1796875" />
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/layout/activity_forget_pass_page.xml" value="0.165625" />
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/layout/activity_login_page.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/layout/activity_splash_screen.xml" value="0.1796875" />
+        <entry key="..\:/Users/naufa/AndroidStudioProjects/Journeyid2/app/src/main/res/layout/term_condition.xml" value="0.17692307692307693" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

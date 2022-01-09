@@ -13,7 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Journeyid">
         <activity
-            android:name=".presentation.MainActivity"
+            android:name=".presentation.forgetpass.ForgetPassPage"
+            android:exported="true"
+            android:label=""
+            android:parentActivityName=".presentation.login.LoginPage"
+            android:theme="@style/BaseTheme" />
+        <activity
+            android:name=".presentation.createacc.CreateAccountPage"
+            android:exported="true"
+            android:label=""
+            android:parentActivityName=".presentation.login.LoginPage"
+            android:theme="@style/BaseTheme" />
+        <activity
+            android:name=".presentation.login.LoginPage"
+            android:exported="true" />
+        <activity
+            android:name=".presentation.splashscreen.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +42,9 @@
             android:authorities="${applicationId}.workmanager-init"
             tools:node="remove" />
 
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
