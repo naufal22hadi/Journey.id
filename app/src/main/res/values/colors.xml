@@ -16,4 +16,5 @@
     <color name="blackTransparent">#80000000</color>
     <color name="brokenwhite">#EADED2</color>
     <color name="darkgray">#D3D3D3</color>
+    <color name="red">#FF0000</color>
 </resources>
